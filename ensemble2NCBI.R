@@ -39,3 +39,6 @@ results <- getBM(attributes = c("ensembl_peptide_id",
 
 results
 write.table(results, file = paste(nome_organismo, fornitore, estensione, sep = ""), sep = "\t", quote = FALSE, row.names = FALSE)
+
+
+#prova
